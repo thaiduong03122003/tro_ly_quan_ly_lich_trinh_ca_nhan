@@ -1,15 +1,3 @@
-"""
-Component 3: Rule-based Extraction for Vietnamese NER System
-===========================================================
-
-This component runs after Component 2 (Model-based NER) and performs:
-1. Reminder extraction using Regex patterns
-2. Event name extraction using Subtractive Method
-
-Author: AI Assistant
-Date: November 2024
-"""
-
 import re
 
 def extract_event_and_reminder(raw_text, time_entities, loc_entities):

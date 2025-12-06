@@ -155,17 +155,19 @@ Không đạt: 2
 | Thành phần | Công nghệ |
 |------------|-----------|
 | Mô hình NER | sklearn-crfsuite (CRF) |
-| Giao diện | PyQt6 |
+| Giao diện | PySide6 |
 | Cơ sở dữ liệu | SQLite |
 | Ngôn ngữ | Python 3.10+ |
 
 ## Thư viện phụ thuộc
 
 ```
-sklearn-crfsuite>=0.3.6
-joblib>=1.3.0
-PyQt6>=6.0.0
-python-dateutil>=2.8.0
+PySide6==6.10.0
+sklearn-crfsuite==0.5.0
+underthesea==8.3.0
+python-dateutil==2.9.0
+joblib>=1.3.0        
+pyinstaller==6.17.0 
 ```
 
 ## Các bước xử lý NLP
